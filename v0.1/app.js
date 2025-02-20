@@ -3,6 +3,7 @@
 */
 
 function loadApp() {
+    console.log("========== Start Load App ==========")
     deviceCheck();
     injectCSS();
     overideClick();
